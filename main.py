@@ -23,7 +23,7 @@ def get_day() -> int:
     day_int = int(input("日を入力 >> "))
 
     if not(32 > day_int > 0):
-        raise Exception("月は1~31にしてください")
+        raise Exception("日は1~31にしてください")
     
     return day_int
 
